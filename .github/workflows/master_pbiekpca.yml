@@ -34,4 +34,4 @@ jobs:
         app-name: 'pbiekpca'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_55a45b63172d499c946b53067c197fee }}
-        package: '.\myapp.zip'
+        package: '.\app.zip'
